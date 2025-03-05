@@ -4,9 +4,9 @@ import { TotalPrice } from "../TotalPrice/TotalPrice";
 export function Component3({ books }) {
   return (
     <>
-      <BookList books={books} />
+      <BookList />
 
-      <TotalPrice books={books} />
+      <TotalPrice />
     </>
   );
 }
